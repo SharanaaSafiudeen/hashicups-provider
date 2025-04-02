@@ -8,8 +8,12 @@ terraform {
 
 provider "hashicups" {
   host     = "http://localhost:19090"
-  username = "education"
+  username = "sharanaa"
   password = "test123"
 }
 
-data "hashicups_coffees" "example" {}
+data "hashicups_coffees" "edu" {}
+
+output "edu_coffees" {
+  value = data.hashicups_coffees.edu
+}
