@@ -1,0 +1,11 @@
+{
+    "data": {
+      "type": "registry-providers",
+      "attributes": {
+        "name": "terraform-provider-hashicupsi",
+        "namespace": "Sharanaa_test",
+        "registry-name": "private"
+      }
+    }
+  }
+  
